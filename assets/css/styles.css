@@ -27,9 +27,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Source Sans Pro", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: "Nunito Sans", sans-serif;
 }
 
 *,
@@ -60,9 +58,9 @@ section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  color: #212529;
+  font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
   text-align: left;
   background-color: #9ed0f0 !important;
 }
@@ -257,19 +255,26 @@ h4,
 .h3,
 .h4 {
   margin-bottom: 0.5rem;
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
   line-height: 1.2;
 }
 
 h1,
 .h1 {
-  font-size: 2.5rem;
+    font-family: "Nunito Sans black", sans-serif;
+    font-weight: 900; /* Nunito Sans black */
+    font-size: 26px;
+    text-align: left;
+    color: #3c78d8;
 }
 
 h2,
 .h2 {
-  font-size: 2rem;
+    font-family: "Nunito Sans semibold", sans-serif;
+    font-weight: 600; /* Nunito Sans semibold */
+    font-size: 22px;
+    text-align: center;
+    color: #3c78d8;
 }
 
 h3,
@@ -289,6 +294,41 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+span,
+p,
+div {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000;
+}
+
+p {
+    text-align: justify;
+}
+
+.fuentes {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right !important;
+    color: #000;
+}
+
+.importante {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0b5394;
+}
+
+.instruccion {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+}
+
 small,
 .small {
   font-size: 80%;
@@ -306,12 +346,10 @@ mark,
   height: auto;
 }
 
-.nav {
-  background-color: #000;
-}
-
 .footer {
   background-color: #8eafc4;
+  padding: .03rem;
+  min-height: 40px;
 }
 
 .pre-scrollable {
@@ -322,8 +360,8 @@ mark,
 .container {
   background-color: #fff;
   width: 100%;
-  /* padding-right: 15px; */
-  /* padding-left: 15px; */
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -331,41 +369,48 @@ mark,
 .container-content {
   background-color: #fff;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .navbar {
+    padding-top:10px !important;
+    padding-bottom:10px !important;
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.8rem 1rem;
+  padding: .03rem;
   background-color: #8eafc4;
+  border-radius: 0px;
+  min-height: 40px;
+
 }
 
+/* Estilos para los elementos del navbar */
+.nav-item {
+    margin-right: 90px; /* Separación entre los elementos */
+    /* border-radius: 10px; Esquinas redondeadas */
+}
+
+/* Estilos para los botones del navbar */
 .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+    color: #000; /* Color de texto inicial */
+    background-color: #fff; /* Fondo blanco */
+    padding: 8px 15px; /* Espaciado interno */
+    border: 1px solid transparent; /* Borde transparente */
+    border-radius: 1px; /* Esquinas redondeadas */
+    transition: all 0.3s; /* Transición suave para los cambios */
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  text-decoration: none;
+/* Estilo para el botón activo del navbar */
+.nav-link.active {
+    color: #fff; /* Color de texto blanco */
+    background-color: #007bff; /* Fondo azul */
+    border-color: #007bff; /* Borde azul */
 }
 
 .nav-link.disabled {
@@ -374,8 +419,18 @@ mark,
   cursor: default;
 }
 
-.navbar .nav-link.active {
-  color: #3c78d8 !important;
+.navbar-nav>li>a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.icono {
+    background-color: #3c78d8; /* Fondo circular azul */
+    color: #fff; /* Color de ícono blanco */
+    width: 40px !important; /* Ancho del contenedor */
+    height: 40px !important; /* Altura del contenedor */
+    border-radius: 50%; /* Para hacer el fondo circular */
+    font-size: 30px; /* Tamaño del ícono */
 }
 
 .header {
@@ -423,6 +478,20 @@ mark,
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
 }
+
+.imagen {
+    width: 200px; /* Ancho inicial */
+    height: auto; /* Altura automática según la relación de aspecto */
+    transition: all 0.3s ease; /* Transición suave */
+    margin: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombras */
+    border-radius: 10px; /* Redondea las esquinas */
+  }
+
+  .imagen:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Cambia la sombra al pasar el mouse */
+  }
 
 @media (min-width: 576px) {
   .container {
