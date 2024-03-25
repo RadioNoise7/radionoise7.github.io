@@ -392,17 +392,18 @@ mark,
 
 /* Estilos para los elementos del navbar */
 .nav-item {
+    list-style: none;
     margin-right: 90px; /* Separación entre los elementos */
     /* border-radius: 10px; Esquinas redondeadas */
 }
 
 /* Estilos para los botones del navbar */
 .nav-link {
-    color: #000; /* Color de texto inicial */
+    color: #3c78d8; /* Color de texto inicial */
     background-color: #fff; /* Fondo blanco */
     padding: 8px 15px; /* Espaciado interno */
-    border: 1px solid transparent; /* Borde transparente */
-    border-radius: 1px; /* Esquinas redondeadas */
+    border: 3px solid transparent; /* Borde transparente */
+    border-radius: 3px; /* Esquinas redondeadas */
     transition: all 0.3s; /* Transición suave para los cambios */
 }
 
@@ -425,12 +426,19 @@ mark,
 }
 
 .icono {
+    display: inline-flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
     background-color: #3c78d8; /* Fondo circular azul */
     color: #fff; /* Color de ícono blanco */
-    width: 40px !important; /* Ancho del contenedor */
-    height: 40px !important; /* Altura del contenedor */
+    width: 30px !important; /* Ancho del contenedor */
+    height: 30px !important; /* Altura del contenedor */
     border-radius: 50%; /* Para hacer el fondo circular */
-    font-size: 30px; /* Tamaño del ícono */
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+.icono-sm {
+    font-size: 16px; /* Tamaño del ícono */
 }
 
 .header {
