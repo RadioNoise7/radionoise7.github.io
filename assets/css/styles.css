@@ -58,9 +58,9 @@ section {
 
 body {
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
-    font-size: 18px;
-    color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: #000;
   text-align: left;
   background-color: #9ed0f0 !important;
 }
@@ -261,20 +261,20 @@ h4,
 
 h1,
 .h1 {
-    font-family: "Nunito Sans black", sans-serif;
-    font-weight: 900; /* Nunito Sans black */
-    font-size: 26px;
-    text-align: left;
-    color: #3c78d8;
+  font-family: "Nunito Sans black", sans-serif;
+  font-weight: 900; /* Nunito Sans black */
+  font-size: 26px;
+  text-align: left;
+  color: #3c78d8;
 }
 
 h2,
 .h2 {
-    font-family: "Nunito Sans semibold", sans-serif;
-    font-weight: 600; /* Nunito Sans semibold */
-    font-size: 22px;
-    text-align: center;
-    color: #3c78d8;
+  font-family: "Nunito Sans semibold", sans-serif;
+  font-weight: 600; /* Nunito Sans semibold */
+  font-size: 22px;
+  text-align: center;
+  color: #3c78d8;
 }
 
 h3,
@@ -297,36 +297,36 @@ hr {
 span,
 p,
 div {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: #000;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .fuentes {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: right !important;
-    color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right !important;
+  color: #000;
 }
 
 .importante {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: #0b5394;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0b5394;
 }
 
 .instruccion {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: justify;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: justify;
 }
 
 small,
@@ -348,7 +348,7 @@ mark,
 
 .footer {
   background-color: #8eafc4;
-  padding: .03rem;
+  padding: 0.03rem;
   min-height: 40px;
 }
 
@@ -378,40 +378,38 @@ mark,
 }
 
 .navbar {
-    padding-top:10px !important;
-    padding-bottom:10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: .03rem;
+  padding: 108px;
   background-color: #8eafc4;
   border-radius: 0px;
-  min-height: 40px;
-
+  min-height: 50px;
 }
 
 /* Estilos para los elementos del navbar */
 .nav-item {
-    list-style: none;
-    margin-right: 90px; /* Separación entre los elementos */
-    /* border-radius: 10px; Esquinas redondeadas */
+  list-style: none;
+  margin-right: 90px; /* Separación entre los elementos */
+  /* border-radius: 10px; Esquinas redondeadas */
 }
 
 /* Estilos para los botones del navbar */
 .nav-link {
-    color: #3c78d8; /* Color de texto inicial */
-    background-color: #fff; /* Fondo blanco */
-    padding: 8px 15px; /* Espaciado interno */
-    border: 3px solid transparent; /* Borde transparente */
-    border-radius: 3px; /* Esquinas redondeadas */
-    transition: all 0.3s; /* Transición suave para los cambios */
+  color: #3c78d8; /* Color de texto inicial */
+  background-color: #fff; /* Fondo blanco */
+  padding: 8px 15px; /* Espaciado interno */
+  border-radius: 3px; /* Esquinas redondeadas */
+  transition: all 0.3s; /* Transición suave para los cambios */
 }
 
 /* Estilo para el botón activo del navbar */
 .nav-link.active {
-    color: #fff; /* Color de texto blanco */
-    background-color: #007bff; /* Fondo azul */
-    border-color: #007bff; /* Borde azul */
+  color: #fff; /* Color de texto blanco */
+  background-color: #007bff; /* Fondo azul */
+  border-color: #007bff; /* Borde azul */
 }
 
 .nav-link.disabled {
@@ -420,33 +418,43 @@ mark,
   cursor: default;
 }
 
-.navbar-nav>li>a{
-    padding-top: 3px;
-    padding-bottom: 3px;
+.navbar-nav > li > a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.icono-t {
+  display: inline-flex;
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  color: #fff; /* Color de ícono blanco */
+  font-size: 30px; /* Tamaño del ícono */
 }
 
 .icono {
-    display: inline-flex;
-    justify-content: center; /* Para centrar horizontalmente */
-    align-items: center; /* Para centrar verticalmente */
-    background-color: #3c78d8; /* Fondo circular azul */
-    color: #fff; /* Color de ícono blanco */
-    width: 30px !important; /* Ancho del contenedor */
-    height: 30px !important; /* Altura del contenedor */
-    border-radius: 50%; /* Para hacer el fondo circular */
-    font-size: 20px; /* Tamaño del ícono */
+  display: inline-flex;
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  background-color: #3c78d8; /* Fondo circular azul */
+  color: #fff; /* Color de ícono blanco */
+  width: 30px !important; /* Ancho del contenedor */
+  height: 30px !important; /* Altura del contenedor */
+  border-radius: 50%; /* Para hacer el fondo circular */
+  font-size: 20px; /* Tamaño del ícono */
 }
 
 .icono-sm {
-    font-size: 16px; /* Tamaño del ícono */
+  font-size: 16px; /* Tamaño del ícono */
 }
 
 .header {
+  background-color: #b1dafa;
   position: initial;
   height: 210px;
-  width: 1140px;
+  width: 100%;
+  object-fit: cover;
   background-image: url(../images/banner.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -487,40 +495,159 @@ mark,
   margin-bottom: 40px;
 }
 
+.imagen-t {
+  width: 100%; /* Ancho inicial */
+  height: auto; /* Altura automática según la relación de aspecto */
+}
+
 .imagen {
-    width: 200px; /* Ancho inicial */
-    height: auto; /* Altura automática según la relación de aspecto */
-    transition: all 0.3s ease; /* Transición suave */
-    margin: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombras */
-    border-radius: 10px; /* Redondea las esquinas */
+  width: 200px; /* Ancho inicial */
+  height: auto; /* Altura automática según la relación de aspecto */
+  transition: all 0.3s ease; /* Transición suave */
+  margin: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombras */
+  border-radius: 10px; /* Redondea las esquinas */
+}
+
+.imagen:hover {
+  transform: scale(1.1); /* Aumenta el tamaño */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Cambia la sombra al pasar el mouse */
+}
+
+.text-light {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right !important;
+}
+
+.footer {
+  color: #fff !important;
+  background-color: #8eafc4;
+  padding: 0.03rem;
+  min-height: 40px;
+}
+
+.footer-txt {
+  margin-left: 10px;
+}
+/* Media query para dispositivos de 375px hasta 575px */
+@media (max-width: 375px) {
+  .navbar {
+    padding: 10px; /* Reducir el padding */
   }
 
-  .imagen:hover {
-    transform: scale(1.1); /* Aumenta el tamaño */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Cambia la sombra al pasar el mouse */
+  .nav-item {
+    margin-right: 10px; /* Ajustar la separación entre elementos */
   }
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
+  /* Estilos para los botones del navbar */
+  .nav-link {
+    color: #fff; /* Color de texto inicial */
+    background-color: #8eafc4; /* Fondo blanco */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 3px; /* Esquinas redondeadas */
+    transition: all 0.3s; /* Transición suave para los cambios */
+  }
+
+  /* Estilo para el botón activo del navbar */
+  .nav-link.active {
+    color: #007bff; /* Color de texto blanco */
+    background-color: #fff; /* Fondo azul */
   }
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
+@media (max-width: 575px) {
+  .navbar {
+    padding: 15px; /* Reducir el padding */
+  }
+
+  .nav-item {
+    margin-right: 20px; /* Ajustar la separación entre elementos */
+  }
+
+  /* Estilos para los botones del navbar */
+  .nav-link {
+    color: #fff; /* Color de texto inicial */
+    background-color: #8eafc4; /* Fondo blanco */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 3px; /* Esquinas redondeadas */
+    transition: all 0.3s; /* Transición suave para los cambios */
+  }
+
+  /* Estilo para el botón activo del navbar */
+  .nav-link.active {
+    color: #007bff; /* Color de texto blanco */
+    background-color: #fff; /* Fondo azul */
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
+/* Media query para dispositivos de 576px hasta 767px */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 30px; /* Reducir el padding */
+  }
+
+  /* Estilos para los botones del navbar */
+  .nav-link {
+    color: #fff; /* Color de texto inicial */
+    background-color: #8eafc4; /* Fondo blanco */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 3px; /* Esquinas redondeadas */
+    transition: all 0.3s; /* Transición suave para los cambios */
+  }
+
+  /* Estilo para el botón activo del navbar */
+  .nav-link.active {
+    color: #007bff; /* Color de texto blanco */
+    background-color: #fff; /* Fondo azul */
   }
 }
 
+/* Media query para dispositivos de 768px hasta 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding: 50px; /* Reducir el padding */
+  }
+
+  /* Estilos para los botones del navbar */
+  .nav-link {
+    color: #fff; /* Color de texto inicial */
+    background-color: #8eafc4; /* Fondo blanco */
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 3px; /* Esquinas redondeadas */
+    transition: all 0.3s; /* Transición suave para los cambios */
+  }
+
+  /* Estilo para el botón activo del navbar */
+  .nav-link.active {
+    color: #007bff; /* Color de texto blanco */
+    background-color: #fff; /* Fondo azul */
+  }
+}
+
+/* Media query para dispositivos de 992px hasta 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    padding: 50px; /* Reducir el padding */
+  }
+
+  .nav-link {
+    padding-right: 0.3rem !important;
+    padding-left: 0.3rem !important;
+  }
+}
+
+/* Media query para dispositivos de 1200px hasta 1920px */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
+  .navbar {
+    padding: 120px; /* Reducir el padding */
   }
 }
