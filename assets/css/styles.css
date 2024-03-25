@@ -369,7 +369,7 @@ mark,
 .container-content {
   background-color: #fff;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 30px;
   padding-left: 30px;
@@ -392,24 +392,23 @@ mark,
 /* Estilos para los elementos del navbar */
 .nav-item {
   list-style: none;
-  margin-right: 90px; /* Separación entre los elementos */
-  /* border-radius: 10px; Esquinas redondeadas */
+  margin-right: 90px;
 }
 
 /* Estilos para los botones del navbar */
 .nav-link {
-  color: #3c78d8; /* Color de texto inicial */
-  background-color: #fff; /* Fondo blanco */
-  padding: 8px 15px; /* Espaciado interno */
-  border-radius: 3px; /* Esquinas redondeadas */
-  transition: all 0.3s; /* Transición suave para los cambios */
+  color: #3c78d8;
+  background-color: #fff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  transition: all 0.3s;
 }
 
 /* Estilo para el botón activo del navbar */
 .nav-link.active {
-  color: #fff; /* Color de texto blanco */
-  background-color: #007bff; /* Fondo azul */
-  border-color: #007bff; /* Borde azul */
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .nav-link.disabled {
@@ -425,22 +424,22 @@ mark,
 
 .icono-t {
   display: inline-flex;
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
-  color: #fff; /* Color de ícono blanco */
-  font-size: 30px; /* Tamaño del ícono */
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
 }
 
 .icono {
   display: inline-flex;
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
-  background-color: #3c78d8; /* Fondo circular azul */
-  color: #fff; /* Color de ícono blanco */
-  width: 30px !important; /* Ancho del contenedor */
-  height: 30px !important; /* Altura del contenedor */
-  border-radius: 50%; /* Para hacer el fondo circular */
-  font-size: 20px; /* Tamaño del ícono */
+  justify-content: center;
+  align-items: center;
+  background-color: #3c78d8;
+  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
 .icono-sm {
@@ -496,8 +495,8 @@ mark,
 }
 
 .imagen-t {
-  width: 100%; /* Ancho inicial */
-  height: auto; /* Altura automática según la relación de aspecto */
+  width: 100%;
+  height: auto;
 }
 
 .imagen {
@@ -550,10 +549,18 @@ mark,
 
   /* Estilos para los botones del navbar */
   .nav-link {
-    color: #fff; /* Color de texto inicial */
-    background-color: #8eafc4; /* Fondo blanco */
+    color: #fff;
+    background-color: #8eafc4;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #8eafc4;
+    background-color: #fff;
     padding: 8px 15px; /* Espaciado interno */
-    border-radius: 3px; /* Esquinas redondeadas */
+    border-radius: 3px;
     transition: all 0.3s; /* Transición suave para los cambios */
   }
 
@@ -575,10 +582,18 @@ mark,
 
   /* Estilos para los botones del navbar */
   .nav-link {
-    color: #fff; /* Color de texto inicial */
-    background-color: #8eafc4; /* Fondo blanco */
+    color: #fff;
+    background-color: #8eafc4;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #8eafc4;
+    background-color: #fff;
     padding: 8px 15px; /* Espaciado interno */
-    border-radius: 3px; /* Esquinas redondeadas */
+    border-radius: 3px;
     transition: all 0.3s; /* Transición suave para los cambios */
   }
 
@@ -597,10 +612,18 @@ mark,
 
   /* Estilos para los botones del navbar */
   .nav-link {
-    color: #fff; /* Color de texto inicial */
+    color: #fff;
     background-color: #8eafc4; /* Fondo blanco */
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #8eafc4;
+    background-color: #fff;
     padding: 8px 15px; /* Espaciado interno */
-    border-radius: 3px; /* Esquinas redondeadas */
+    border-radius: 3px;
     transition: all 0.3s; /* Transición suave para los cambios */
   }
 
@@ -619,10 +642,18 @@ mark,
 
   /* Estilos para los botones del navbar */
   .nav-link {
-    color: #fff; /* Color de texto inicial */
-    background-color: #8eafc4; /* Fondo blanco */
+    color: #fff;
+    background-color: #8eafc4;
     padding: 8px 15px; /* Espaciado interno */
-    border-radius: 3px; /* Esquinas redondeadas */
+    border-radius: 3px;
+    transition: all 0.3s; /* Transición suave para los cambios */
+  }
+
+  .nav-link:hover {
+    color: #8eafc4;
+    background-color: #fff;
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 3px;
     transition: all 0.3s; /* Transición suave para los cambios */
   }
 
