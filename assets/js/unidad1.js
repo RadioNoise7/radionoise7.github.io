@@ -6,6 +6,5 @@
 
 // smooth scroll
 $(document).ready(function () {
-    $('#header').load('header.html');
-    $('#footer').load('footer.html');
+    $('#unidad1-content').load('unidad1-content.html');
 });
